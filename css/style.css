@@ -66,6 +66,7 @@ nav ul {
 }
 
 #hero img {
+  max-width: 100%;
   width: 250px;
   border-radius: 50%;
   margin-top: 20px;
@@ -92,6 +93,7 @@ nav ul {
 #hero span:hover, .column a:hover {
   border: 2px solid #00d1b2;
   color: #00d1b2;
+  transform: scale(1.25);
 }
 
 .column {
@@ -106,6 +108,7 @@ nav ul {
   max-width: 90%;
   border-radius: 50%;
   border: 3px solid #00d1b2;
+  max-width: 100%;
 }
 
 .column h4 {
@@ -136,7 +139,7 @@ nav ul {
 }
 
 #main-content {
-  padding: 5% 0;
+  padding: 5% 25px;
 }
 #main-content h3 {
   font-size: 200%;
@@ -153,7 +156,7 @@ nav ul {
 #social {
  float:left;
  width:100%;
- background:#000;
+ background: linear-gradient(#222, #333);
  padding: 5% 0;
  border-bottom:4px solid #000;
  overflow:hidden;
@@ -187,6 +190,7 @@ nav ul {
  transition: .5s ease;
 }
 #social ul li a:hover {
+  transform: rotate(360deg);
   opacity: 1;
 }
 #social h3 {
